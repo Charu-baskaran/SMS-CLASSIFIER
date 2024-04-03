@@ -1,7 +1,7 @@
 # SMS Spam Classification Model
 
 ## Overview
-This project focuses on developing a text classification model in Python to classify SMS messages as either spam or non-spam (ham). The dataset contains 5573 SMS messages, with a majority being ham (86.6%) and the rest being spam (13.4%). The goal is to build a machine learning model that can accurately distinguish between spam and ham messages.
+This project focuses on developing a text classification model in Python to classify SMS messages as either spam or non-spam (ham).The goal is to build a machine learning model that can accurately distinguish between spam and ham messages.
 
 ## Dataset
 The dataset consists of 5573 SMS messages labeled as spam or ham. The majority class is ham, accounting for 86.6% of the data, while the minority class is spam, representing 13.4% of the dataset. Each SMS message is a text string.
