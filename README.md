@@ -9,11 +9,10 @@ The dataset consists of 5573 SMS messages labeled as spam or ham. The majority c
 ## Data Preprocessing
 Data preprocessing involves removing any irrelevant columns and handling missing values, if any exist. Additionally, text data may require cleaning, such as removing punctuation and converting text to lowercase.
 
-## Training Data Preparation
-After preprocessing, the dataset is split into training and testing sets while maintaining the original class distribution. This ensures that both sets contain a proportional representation of spam and ham messages.
-
-## Model Training
-A machine learning pipeline is created using scikit-learn. The pipeline consists of a CountVectorizer for feature extraction and a K-Nearest Neighbors (KNN) classifier for classification. CountVectorizer converts text data into numerical feature vectors, while KNN is trained to classify messages as spam or ham based on these feature vectors.
+## Visualizations
+Catplot: Visualizes the distribution of spam and ham messages.
+Pie Chart: Illustrates the proportion of spam and ham messages in the dataset.
+Confusion Matrix: Displays the performance of the classification model, showing the true positives, true negatives, false positives, and false negatives.
 
 ## Result
-The trained model is evaluated on both training and testing sets using accuracy as the performance metric. The CountVectorizer with KNN classifier notably outperforms the TF-IDF Vectorizer with KNN in terms of accuracy. The model achieves an accuracy of 97.3% on the training set and 96.8% on the test set, demonstrating its reliability and effectiveness in classifying SMS messages. Despite the imbalanced class distribution, the model accurately distinguishes between spam and ham messages.
+The trained model is deployed as a streamlit app, which takes input text and predicts whether it is spam or not spam.
